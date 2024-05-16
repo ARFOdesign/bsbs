@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 400px;
+}
+
+th {
+  color: white;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+.total {
+  text-align: end;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+tr:first-child {
+  background-color: green;
+}
+
+.logo {
+  width: 300px;
+  transition: 0.5s ease;
+}
+
+.logo:hover {
+  scale: 1.1;
+}
+
+.flex-container {
+  display: flex;
+  width: 800px;
+  height: 380px;
+  background-color: #0000004b;
+  padding: 25px;
+}
+
+.heart-c {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-top: -25px;
+  margin-left: -25px;
+  padding-top: 11px;
+  padding-left: 10px;
+}
+
+.heart {
+  width: 40px;
+  opacity: 70%;
+  transition: 0.5s ease;
+}
+
+.heart:hover {
+  opacity: 100%;
+}
+
+.text {
+  margin-left: 40px;
+  height: 500px;
+  width: 250px;
+}
+
+.icon {
+  display: flex;
+  background-color: antiquewhite;
+  width: 180px;
+  height: 60px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon-image {
+  width: 50px;
+  margin: 5px;
+}
+
+.small {
+  font-size: xx-small;
+  color: rgb(255, 85, 85);
+}
+
+.icon-text {
+  margin-top: -7px;
+  margin-left: 5px;
+}
